@@ -1,3 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Collection</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>📚 Collection</h1>
+
+<p>Add a new question.</p>
+
+</header>
+
 <main>
 
 <select id="category">
@@ -12,19 +37,37 @@
 
 <optgroup label="Math">
 <option>Math</option>
+<option>Algebra</option>
+<option>Geometry</option>
+<option>Calculus</option>
+</optgroup>
+
+<optgroup label="Science">
+<option>Science</option>
+<option>Physics</option>
+<option>Chemistry</option>
+<option>Biology</option>
 </optgroup>
 
 <optgroup label="Programming">
 <option>Programming</option>
+<option>Scratch</option>
+<option>Python</option>
+<option>C++</option>
+<option>JavaScript</option>
+</optgroup>
+
+<optgroup label="Language">
+<option>English</option>
+<option>Chinese</option>
+<option>French</option>
 </optgroup>
 
 </select>
 
-<h2>Question</h2>
-
 <textarea
 id="question"
-placeholder="Type your question here..."></textarea>
+placeholder="Question"></textarea>
 
 <label class="upload">
 
@@ -32,16 +75,13 @@ placeholder="Type your question here..."></textarea>
 
 <input
 type="file"
-id="questionImage"
 accept="image/*">
 
 </label>
 
-<h2>Answer</h2>
-
 <textarea
 id="answer"
-placeholder="Type the answer here..."></textarea>
+placeholder="Answer"></textarea>
 
 <label class="upload">
 
@@ -49,15 +89,18 @@ placeholder="Type the answer here..."></textarea>
 
 <input
 type="file"
-id="answerImage"
 accept="image/*">
 
 </label>
 
-<button id="save">
+<button>
 
 💾 Save Question
 
 </button>
 
 </main>
+
+</body>
+
+</html>
