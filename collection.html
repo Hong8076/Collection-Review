@@ -17,122 +17,77 @@
 
 <h1>📚 Collection</h1>
 
-<p>Collect today's knowledge.</p>
+<p>Add a new question.</p>
 
 </header>
 
 <main>
 
-<input
-type="text"
-id="title"
-placeholder="Title">
-
-<textarea
-id="content"
-placeholder="Knowledge / Notes"></textarea>
-
 <select id="category">
 
-<optgroup label="🏛 History">
+<optgroup label="History">
 <option>Ancient History</option>
-<option>Medieval History</option>
-<option>Modern History</option>
 <option>Chinese History</option>
 <option>World History</option>
+<option>Modern History</option>
 <option>Canadian History</option>
-<option>American History</option>
-<option>European History</option>
 </optgroup>
 
-<optgroup label="📐 Math">
+<optgroup label="Math">
 <option>Arithmetic</option>
 <option>Algebra</option>
 <option>Geometry</option>
-<option>Statistics</option>
-<option>Probability</option>
 <option>Calculus</option>
 </optgroup>
 
-<optgroup label="🗣 Languages">
-<option>English</option>
-<option>Chinese</option>
-<option>French</option>
-<option>Spanish</option>
+<optgroup label="Programming">
+<option>Python</option>
+<option>C++</option>
+<option>JavaScript</option>
+<option>Algorithms</option>
 </optgroup>
 
-<optgroup label="🔬 Science">
+<optgroup label="Science">
 <option>Biology</option>
 <option>Chemistry</option>
 <option>Physics</option>
-<option>Astronomy</option>
-<option>Earth Science</option>
-</optgroup>
-
-<optgroup label="💻 Technology">
-<option>Programming</option>
-<option>Artificial Intelligence</option>
-<option>Algorithms</option>
-<option>Data Structures</option>
-<option>Web Development</option>
-<option>Cybersecurity</option>
-<option>Game Development</option>
-<option>Robotics</option>
-</optgroup>
-
-<optgroup label="💰 Business">
-<option>Economics</option>
-<option>Business</option>
-<option>Finance</option>
-<option>Marketing</option>
-</optgroup>
-
-<optgroup label="🧠 Personal Growth">
-<option>Psychology</option>
-<option>Philosophy</option>
-<option>Learning Methods</option>
-<option>Productivity</option>
-</optgroup>
-
-<optgroup label="🎨 Arts">
-<option>Art</option>
-<option>Music</option>
-<option>Design</option>
-</optgroup>
-
-<optgroup label="📦 Other">
-<option>Other</option>
 </optgroup>
 
 </select>
 
-<select id="difficulty">
+<textarea
+id="question"
+placeholder="Question"></textarea>
 
-<option>Easy</option>
-
-<option>Medium</option>
-
-<option>Hard</option>
-
-</select>
-
+<label class="upload">
+📷 Question Image
 <input
-type="text"
-id="tags"
-placeholder="Tags (AI, Exam, Reading...)">
+type="file"
+id="questionImage"
+accept="image/*">
+</label>
 
+<textarea
+id="answer"
+placeholder="Answer"></textarea>
+
+<label class="upload">
+📷 Answer Image
 <input
-type="text"
-id="source"
-placeholder="Source (Book / Website / Teacher)">
+type="file"
+id="answerImage"
+accept="image/*">
+</label>
 
-<button>
+<button id="save">
 
-💾 Save Knowledge
+💾 Save Question
 
 </button>
 
 </main>
+
+<script src="app.js"></script>
 
 </body>
 
