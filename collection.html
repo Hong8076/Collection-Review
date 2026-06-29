@@ -2,10 +2,8 @@
 <html lang="en">
 
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Collection</title>
 
 <link rel="stylesheet" href="style.css">
@@ -15,20 +13,15 @@
 <body>
 
 <header>
-
 <h1>📚 Collection</h1>
-
 <p>Add a new question.</p>
-
 </header>
 
 <main>
 
 <div class="editor">
 
-<!-- Left -->
-
-<div class="panel">
+<div class="card">
 
 <h2>Question</h2>
 
@@ -37,44 +30,16 @@ id="question"
 placeholder="Type your question here..."></textarea>
 
 <label class="upload">
-
-📷 Upload Question Image
-
+📷 Question Image
 <input
 type="file"
 id="questionImage"
 accept="image/*">
-
 </label>
 
-</div>
+<div class="category">
 
-<!-- Right -->
-
-<div class="panel">
-
-<h2>Answer</h2>
-
-<textarea
-id="answer"
-placeholder="Type the answer here..."></textarea>
-
-<label class="upload">
-
-📷 Upload Answer Image
-
-<input
-type="file"
-id="answerImage"
-accept="image/*">
-
-</label>
-
-</div>
-
-</div>
-
-<div class="bottom">
+<h3>Category</h3>
 
 <select id="category">
 
@@ -88,41 +53,41 @@ accept="image/*">
 
 <optgroup label="Math">
 <option>Math</option>
-<option>Algebra</option>
-<option>Geometry</option>
-<option>Calculus</option>
-</optgroup>
-
-<optgroup label="Science">
-<option>Science</option>
-<option>Physics</option>
-<option>Chemistry</option>
-<option>Biology</option>
 </optgroup>
 
 <optgroup label="Programming">
 <option>Programming</option>
-<option>Scratch</option>
-<option>Python</option>
-<option>C++</option>
-<option>JavaScript</option>
-</optgroup>
-
-<optgroup label="Language">
-<option>English</option>
-<option>Chinese</option>
-<option>French</option>
 </optgroup>
 
 </select>
 
-<button id="saveButton">
-
-💾 Save Question
-
-</button>
+</div>
 
 </div>
+
+<div class="card">
+
+<h2>Answer</h2>
+
+<textarea
+id="answer"
+placeholder="Type the answer here..."></textarea>
+
+<label class="upload">
+📷 Answer Image
+<input
+type="file"
+id="answerImage"
+accept="image/*">
+</label>
+
+</div>
+
+</div>
+
+<button id="save">
+💾 Save Question
+</button>
 
 </main>
 
