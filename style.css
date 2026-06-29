@@ -79,3 +79,28 @@ transform:scale(1.03);
 background:#eef5ff;
 
 }
+input,
+textarea,
+select{
+
+width:320px;
+
+padding:15px;
+
+font-size:18px;
+
+margin:10px;
+
+border-radius:10px;
+
+border:1px solid #ccc;
+
+}
+
+textarea{
+
+height:140px;
+
+resize:vertical;
+
+}
