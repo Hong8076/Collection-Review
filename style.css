@@ -104,3 +104,28 @@ height:140px;
 resize:vertical;
 
 }
+h2{
+    width:80%;
+    max-width:700px;
+    margin:30px auto 10px;
+    font-size:30px;
+}
+
+.upload{
+    display:block;
+    width:80%;
+    max-width:700px;
+    margin:15px auto 30px;
+    padding:18px;
+    background:white;
+    border-radius:18px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    font-size:22px;
+    cursor:pointer;
+}
+
+.upload input{
+    display:block;
+    margin-top:15px;
+    font-size:18px;
+}
