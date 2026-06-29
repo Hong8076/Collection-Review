@@ -1,159 +1,181 @@
 body{
-    margin:0;
-    font-family:Arial, Helvetica, sans-serif;
-    background:#f5f7fb;
-    text-align:center;
+
+margin:0;
+
+font-family:Arial,Helvetica,sans-serif;
+
+background:#f4f7fc;
+
+color:#222;
+
 }
 
-/* ---------- Header ---------- */
+/* Header */
 
 header{
-    background:#2d5b90;
-    color:white;
-    padding:50px 20px;
+
+background:#2d5b90;
+
+color:white;
+
+text-align:center;
+
+padding:50px 20px;
+
 }
 
-h1{
-    margin:0;
-    font-size:64px;
-    font-weight:bold;
+header h1{
+
+margin:0;
+
+font-size:60px;
+
 }
 
-p{
-    margin-top:20px;
-    font-size:22px;
-    opacity:.9;
+header p{
+
+margin-top:18px;
+
+font-size:24px;
+
+opacity:.9;
+
 }
 
-/* ---------- Main ---------- */
+/* Main */
 
 main{
-    width:90%;
-    max-width:700px;
-    margin:60px auto;
-}
 
-/* ---------- Input ---------- */
+width:90%;
 
-input,
-textarea,
-select{
+max-width:700px;
 
-    width:100%;
-    box-sizing:border-box;
-
-    padding:18px;
-
-    margin:20px 0;
-
-    font-size:22px;
-
-    border:1px solid #d8dce5;
-
-    border-radius:18px;
-
-    background:white;
-
-    outline:none;
+margin:50px auto;
 
 }
 
-input:focus,
-textarea:focus,
-select:focus{
+/* Inputs */
 
-    border-color:#2d5b90;
+select,
+textarea{
+
+width:100%;
+
+box-sizing:border-box;
+
+padding:18px;
+
+margin-bottom:25px;
+
+font-size:22px;
+
+border-radius:18px;
+
+border:1px solid #d7dce5;
+
+background:white;
+
+outline:none;
+
+}
+
+select:focus,
+textarea:focus{
+
+border-color:#2d5b90;
 
 }
 
 textarea{
 
-    height:180px;
+height:180px;
 
-    resize:vertical;
+resize:vertical;
 
 }
 
-/* ---------- Upload ---------- */
+/* Upload */
 
 .upload{
 
-    display:block;
+display:block;
 
-    width:100%;
+margin-bottom:30px;
 
-    box-sizing:border-box;
+padding:28px;
 
-    margin:15px 0 35px;
+text-align:center;
 
-    padding:30px;
+font-size:22px;
 
-    background:white;
+font-weight:bold;
 
-    border:2px dashed #c8d0dd;
+background:white;
 
-    border-radius:20px;
+border:2px dashed #c7d2df;
 
-    cursor:pointer;
+border-radius:20px;
 
-    transition:.2s;
+cursor:pointer;
 
-    font-size:22px;
-
-    font-weight:bold;
+transition:.25s;
 
 }
 
 .upload:hover{
 
-    background:#eef5ff;
+background:#eef5ff;
 
-    border-color:#2d5b90;
+border-color:#2d5b90;
 
 }
 
 .upload input{
 
-    margin-top:18px;
+display:block;
 
-    font-size:18px;
+margin:18px auto 0;
+
+font-size:18px;
 
 }
 
-/* ---------- Button ---------- */
+/* Button */
 
 button{
 
-    width:100%;
+width:100%;
 
-    padding:22px;
+padding:22px;
 
-    margin:20px 0 60px;
+margin-top:10px;
 
-    border:none;
+margin-bottom:60px;
 
-    border-radius:20px;
+background:#2d5b90;
 
-    background:#2d5b90;
+color:white;
 
-    color:white;
+font-size:28px;
 
-    font-size:28px;
+font-weight:bold;
 
-    font-weight:bold;
+border:none;
 
-    cursor:pointer;
+border-radius:20px;
 
-    transition:.2s;
+cursor:pointer;
 
-    box-shadow:0 8px 20px rgba(0,0,0,.15);
+transition:.2s;
+
+box-shadow:0 8px 20px rgba(0,0,0,.15);
 
 }
 
 button:hover{
 
-    background:#376da9;
+background:#376da9;
 
-    transform:translateY(-2px);
+transform:translateY(-2px);
 
 }
