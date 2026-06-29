@@ -1,26 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-
-<meta charset="UTF-8">
-
-<title>Collection</title>
-
-<link rel="stylesheet" href="style.css">
-
-</head>
-
-<body>
-
-<header>
-
-<h1>📚 Collection</h1>
-
-<p>Add a new question.</p>
-
-</header>
-
 <main>
 
 <select id="category">
@@ -34,49 +11,47 @@
 </optgroup>
 
 <optgroup label="Math">
-<option>Arithmetic</option>
-<option>Algebra</option>
-<option>Geometry</option>
-<option>Calculus</option>
+<option>Math</option>
 </optgroup>
 
 <optgroup label="Programming">
-<option>Python</option>
-<option>C++</option>
-<option>JavaScript</option>
-<option>Algorithms</option>
-</optgroup>
-
-<optgroup label="Science">
-<option>Biology</option>
-<option>Chemistry</option>
-<option>Physics</option>
+<option>Programming</option>
 </optgroup>
 
 </select>
 
+<h2>Question</h2>
+
 <textarea
 id="question"
-placeholder="Question"></textarea>
+placeholder="Type your question here..."></textarea>
 
 <label class="upload">
-📷 Question Image
+
+📷 Upload Question Image
+
 <input
 type="file"
 id="questionImage"
 accept="image/*">
+
 </label>
+
+<h2>Answer</h2>
 
 <textarea
 id="answer"
-placeholder="Answer"></textarea>
+placeholder="Type the answer here..."></textarea>
 
 <label class="upload">
-📷 Answer Image
+
+📷 Upload Answer Image
+
 <input
 type="file"
 id="answerImage"
 accept="image/*">
+
 </label>
 
 <button id="save">
@@ -86,9 +61,3 @@ accept="image/*">
 </button>
 
 </main>
-
-<script src="app.js"></script>
-
-</body>
-
-</html>
