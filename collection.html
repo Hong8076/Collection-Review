@@ -24,6 +24,58 @@
 
 <main>
 
+<div class="editor">
+
+<!-- Left -->
+
+<div class="panel">
+
+<h2>Question</h2>
+
+<textarea
+id="question"
+placeholder="Type your question here..."></textarea>
+
+<label class="upload">
+
+📷 Upload Question Image
+
+<input
+type="file"
+id="questionImage"
+accept="image/*">
+
+</label>
+
+</div>
+
+<!-- Right -->
+
+<div class="panel">
+
+<h2>Answer</h2>
+
+<textarea
+id="answer"
+placeholder="Type the answer here..."></textarea>
+
+<label class="upload">
+
+📷 Upload Answer Image
+
+<input
+type="file"
+id="answerImage"
+accept="image/*">
+
+</label>
+
+</div>
+
+</div>
+
+<div class="bottom">
+
 <select id="category">
 
 <optgroup label="History">
@@ -64,41 +116,13 @@
 
 </select>
 
-<textarea
-id="question"
-placeholder="Question"></textarea>
-
-<label class="upload">
-
-📷 Upload Question Image
-
-<input
-type="file"
-id="questionImage"
-accept="image/*">
-
-</label>
-
-<textarea
-id="answer"
-placeholder="Answer"></textarea>
-
-<label class="upload">
-
-📷 Upload Answer Image
-
-<input
-type="file"
-id="answerImage"
-accept="image/*">
-
-</label>
-
 <button id="saveButton">
 
 💾 Save Question
 
 </button>
+
+</div>
 
 </main>
 
