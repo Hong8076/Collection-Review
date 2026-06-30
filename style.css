@@ -238,3 +238,100 @@ button{
 }
 
 }
+/* ---------- Home ---------- */
+
+.home{
+
+width:1100px;
+max-width:92%;
+margin:50px auto;
+
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:35px;
+
+}
+
+.card{
+
+background:white;
+
+border-radius:22px;
+
+padding:40px;
+
+text-decoration:none;
+
+color:#234d7d;
+
+box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+transition:.25s;
+
+display:flex;
+
+flex-direction:column;
+
+align-items:center;
+
+justify-content:center;
+
+height:170px;
+
+}
+
+.card:hover{
+
+transform:translateY(-6px);
+
+box-shadow:0 18px 40px rgba(0,0,0,.15);
+
+}
+
+.card .icon{
+
+font-size:60px;
+
+margin-bottom:15px;
+
+}
+
+.card h2{
+
+margin:0;
+
+font-size:34px;
+
+}
+
+.card p{
+
+margin-top:10px;
+
+font-size:20px;
+
+color:#666;
+
+}
+
+header{
+
+padding:30px;
+
+}
+
+header h1{
+
+font-size:70px;
+
+margin-bottom:10px;
+
+}
+
+header p{
+
+font-size:24px;
+
+margin:0;
+
+}
